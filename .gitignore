@@ -13,11 +13,6 @@ __pycache__/
 logs/
 debug.log
 
-# IDE and editor settings
-.vscode/
-.idea/
-*.swp
-
 # Ignore Rasa-generated files
 models/
 cache/
