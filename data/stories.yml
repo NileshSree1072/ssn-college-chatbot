@@ -1,0 +1,84 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: goodbye path
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: general info path
+  steps:
+    - intent: ask_general_info
+    - action: utter_general_info
+
+- story: academic info path
+  steps:
+    - intent: ask_academic_info
+    - action: utter_academic_info
+
+- story: admissions fees path
+  steps:
+    - intent: ask_admissions_fees
+    - action: utter_admissions_fees
+
+- story: departments faculty path
+  steps:
+    - intent: ask_departments_faculty
+    - action: utter_departments_faculty
+
+- story: campus facilities path
+  steps:
+    - intent: ask_campus_facilities
+    - action: utter_campus_facilities
+
+- story: placements path
+  steps:
+    - intent: ask_placements
+    - action: utter_placements
+
+- story: student life path
+  steps:
+    - intent: ask_student_life
+    - action: utter_student_life
+
+- story: contact path
+  steps:
+    - intent: ask_contact
+    - action: utter_contact
+
+- story: alumni path
+  steps:
+    - intent: ask_alumni
+    - action: utter_alumni
+
+- story: research path
+  steps:
+    - intent: ask_research
+    - action: utter_research
+
+- story: scholarship exams path
+  steps:
+    - intent: ask_scholarship_exams
+    - action: utter_scholarship_exams
+
+- story: events path
+  steps:
+    - intent: ask_events
+    - action: utter_events
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_general_info
+  - action: utter_placements
+  - intent: ask_general_info
+  - intent: ask_placements
+  - action: utter_placements
+  - intent: goodbye
+  - action: utter_goodbye

@@ -1,0 +1,63 @@
+version: '3.1'
+intents:
+- ask_academic_info
+- ask_admissions_fees
+- ask_alumni
+- ask_campus_facilities
+- ask_contact
+- ask_departments_faculty
+- ask_events
+- ask_general_info
+- ask_placements
+- ask_research
+- ask_scholarship_exams
+- ask_student_life
+- goodbye
+- greet
+responses:
+  utter_greet:
+  - text: Hello! Welcome to the SSN College of Engineering Chatbot. How can I assist you today?
+  utter_goodbye:
+  - text: Goodbye! Feel free to come back if you need more information.
+  utter_general_info:
+  - text: "SSN College of Engineering is a premier institute in Chennai. Vision: To be a global leader in technical education. Mission: Excellence in education and research. Accredited by NAAC with 'A++' grade. Affiliated to Anna University and approved by AICTE."
+  utter_academic_info:
+  - text: 'UG Programs: CSE, ECE, IT, Mech, etc. PG Programs: M.Tech, MBA. Ph.D. programs available. Duration: UG-4 years, PG-2 years. Eligibility: 10+2 for UG, Degree for PG. Admission via TNEA/TANCET.'
+  utter_admissions_fees:
+  - text: 'Admissions via Management/Government Quota. Entrance exams: TNEA, TANCET. Apply online via official website. Fees: UG ~1.5L/year, PG ~1L/year. Scholarships available for merit and need-based students.'
+  utter_departments_faculty:
+  - text: 'Departments: CSE, ECE, IT, Mechanical, etc. Faculty: Experienced PhDs with specializations. Research: Funded projects in AI, Robotics, etc.'
+  utter_campus_facilities:
+  - text: 'Hostels: Separate for boys/girls. Library: 1L+ books, digital resources. Sports: Cricket, Football. Labs: Advanced research centers. Transport: College buses available.'
+  utter_placements:
+  - text: 'Placement Cell: Active support. Stats: 95% placement rate. Top Recruiters: TCS, Infosys, Wipro. Internships with industry leaders.'
+  utter_student_life:
+  - text: 'Clubs: Robotics, Dance, Music. Events: Instincts, Invente. Achievements: National-level awards.'
+  utter_contact:
+  - text: 'Address: SSNCE, Rajiv Gandhi Salai, Chennai. Phone: +91-44-27469700. Email: info@ssn.edu.in. Website: www.ssn.edu.in'
+  utter_alumni:
+  - text: 'Notable Alumni: CEOs, researchers. Active alumni network with events.'
+  utter_research:
+  - text: 'Publications: 1000+ papers. MOUs with IITs, industries. Incubation center for startups.'
+  utter_scholarship_exams:
+  - text: 'SSN Scholarships: Merit-based up to 100% fees, need-based aid available.'
+  utter_events:
+  - text: 'Upcoming: Tech Webinar on March 15, 2025. Academic Calendar: Sem starts April 1.'
+actions:
+- utter_goodbye
+- utter_greet
+- utter_placements
+- utter_general_info
+- utter_academic_info
+- utter_admissions_fees
+- utter_departments_faculty
+- utter_campus_facilities
+- utter_student_life
+- utter_contact
+- utter_alumni
+- utter_research
+- utter_scholarship_exams
+- utter_events
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

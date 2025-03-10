@@ -1,0 +1,7 @@
+# This file contains the different endpoints for the chatbot to connect to different services.
+# The endpoints are used to connect to the NLU model, the action server, and the tracker store.
+
+socketio:
+  user_message_evt: user_uttered
+  bot_message_evt: bot_uttered
+  session_persistence: true

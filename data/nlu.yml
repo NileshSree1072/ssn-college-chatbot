@@ -1,0 +1,76 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+- intent: ask_general_info
+  examples: |
+    - tell me about SSN college
+    - general information
+    - overview of the college
+    - about placements
+- intent: ask_academic_info
+  examples: |
+    - what programs are offered?
+    - academic details
+    - courses available
+- intent: ask_admissions_fees
+  examples: |
+    - admission process
+    - fees structure
+    - how to apply
+- intent: ask_departments_faculty
+  examples: |
+    - list departments
+    - faculty details
+    - research projects
+- intent: ask_campus_facilities
+  examples: |
+    - hostel info
+    - library facilities
+    - campus amenities
+- intent: ask_placements
+  examples: |
+    - placement stats
+    - top recruiters
+    - career opportunities
+    - tell me about placemnets at ssn college
+    - what are the placement opportunities at SSN?
+    -top recruiters at SSN
+- intent: ask_student_life
+  examples: |
+    - student clubs
+    - events at SSN
+    - extracurriculars
+- intent: ask_contact
+  examples: |
+    - contact details
+    - college address
+    - helpline
+- intent: ask_alumni
+  examples: |
+    - notable alumni
+    - alumni network
+    - alumni events
+- intent: ask_research
+  examples: |
+    - research publications
+    - collaborations
+    - startup support
+- intent: ask_scholarship_exams
+  examples: |
+    - scholarship details
+    - entrance exams
+    - financial aid
+- intent: ask_events
+  examples: |
+    - upcoming events
+    - academic calendar
+    - webinars
