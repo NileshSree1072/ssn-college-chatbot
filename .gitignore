@@ -1,1 +1,37 @@
+# Ignore virtual environment
 venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+logs/
+debug.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore Rasa-generated files
+models/
+cache/
+results/
+
+# Ignore dependencies (installed via pip)
+node_modules/
+*.egg-info/
+dist/
+build/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore Git Large Files Storage (LFS) tracking files
+.gitattributes
