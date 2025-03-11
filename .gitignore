@@ -10,5 +10,4 @@ logs/
 *.log
 .cache/
 
-# Ignore model files (if you don’t want to upload trained models)
-models/
+

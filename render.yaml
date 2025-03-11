@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rasa-server
+    env: docker
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: rasa run --enable-api --cors "*" --port $PORT --debug
